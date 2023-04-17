@@ -1,0 +1,158 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	.step-main__title {
+		font-size: 16px;
+		line-height: 24px;
+	}
+	.step-main {
+		padding-right: 30px;
+	}
+	.step-main__number {
+		margin-right: 40px;
+	}
+	.step-main__number::after {
+		right: -20px;
+	}
+	.content-form {
+		padding: 26px 30px;
+	}
+	.tabs-form a {
+		padding: 12px 20px;
+		font-size: 13px;
+		line-height: 20px;
+	}
+	.form-partnership {
+		margin-left: -70px;
+	}
+	.item-condition {
+		padding: 24px 20px;
+		padding-bottom: 15px;
+	}
+	.item-condition__value {
+		font-size: 48px;
+		line-height: 42px;
+		margin-bottom: 16px;
+	}
+	.billbord-wholesale {
+		height: 520px;
+		padding: 30px 35px;
+		padding-bottom: 40px;
+	}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+	.col_steps {
+		padding-right: 15px;
+	}
+	.form-partnership {
+		margin: 0;
+		margin-top: 10px;
+	}
+	.section-partnership {
+		padding-top: 35px;
+		padding-bottom: 50px;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	.wholesale-top {
+		padding: 10px 17px;
+		padding-left: 50px;
+		font-size: 13px;
+		line-height: 18px;
+		min-height: 42px;
+		border-radius: 8px;
+		max-width: 270px;
+	}
+	.title-wholesale {
+		font-size: 53px;
+	}
+	.title-wholesale span {
+		font-size: 40px;
+	}
+	.billbord-wholesale {
+		height: 410px;
+		padding: 30px 15px;
+		border-radius: 0;
+		margin: 0 -15px;
+	}
+	.title-section {
+		font-size: 26px;
+	}
+	.section-conditions .title-section {
+		padding-bottom: 20px;
+	}
+	.list-page {
+		line-height: 20px;
+		font-size: 14px;
+		columns: initial;
+	}
+	.list-page li {
+		margin-bottom: 15px;
+	}
+	.row_conditions {
+		margin-bottom: 20px;
+	}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	.step-main__number {
+		font-size: 20px;
+		width: 53px;
+		height: 53px;
+	}
+	.step-main__title {
+		font-size: 14px;
+		line-height: 21px;
+	}
+	.tabs-form a {
+		padding: 12px 17px;
+		font-size: 12px;
+		line-height: 18px;
+	}
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	.container {
+		max-width: 1331px;
+	}
+}
+@media (min-width: 1600px) {
+	.container {
+		max-width: 1331px;
+	}
+}
